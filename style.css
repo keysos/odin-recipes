@@ -1,0 +1,50 @@
+/* Class for header and subheader to share the same aspects */
+
+.header,
+.subheader {
+    background-color:#6fc276; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Two classes who add distictive aspects for header and subheader */
+
+.header{
+    text-align:center;
+}
+
+.subheader{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+/* Class for description of recipes */
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Classes for the list on the main menu and the list of ingredients and step by step */
+
+.lists,
+.lists-recipes {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.lists {
+    font-size: 20px;
+}
+
+.lists-recipes{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+/*  Class that adds aspects do the paragraphs inside the list-recipes classes */
+
+.lists-recipes p{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #3c8f43;
+}
