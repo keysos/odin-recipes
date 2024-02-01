@@ -4,6 +4,8 @@
 .subheader {
     background-color:#6fc276; 
     font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 5px;
 }
 
 /* Two classes who add distictive aspects for header and subheader */
@@ -32,19 +34,33 @@
     font-weight: 300;
 }
 
-.lists {
+/* Class that alters the style of the list in the homepage */
+
+.lists li{
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: bold;
+    padding: 10px 20px;
     font-size: 20px;
+    background-color: #6fc276;
+    
 }
 
-.lists-recipes{
+/*  Class that adds aspects to the list items inside the list-recipes classes */
+
+.lists-recipes li{
     font-weight: 200;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
-/*  Class that adds aspects do the paragraphs inside the list-recipes classes */
+/*  Class that adds aspects to the paragraphs inside the list-recipes classes */
 
 .lists-recipes p{
     font-size: 22px;
     font-weight: bold;
     background-color: #3c8f43;
+    border-style: solid;
+    border-width: 3px;
 }
