@@ -1,66 +1,94 @@
-/* Class for header and subheader to share the same aspects */
-
-.header,
-.subheader {
-    background-color:#6fc276; 
-    font-family: 'Courier New', Courier, monospace;
-    border-style: solid;
-    border-width: 5px;
+*{
+    margin: 0px;
+    padding: 0px
 }
 
-/* Two classes who add distictive aspects for header and subheader */
+/*Header tab and navigation*/
 
-.header{
-    text-align:center;
+.header {
+    background-color: #142d4c;
+    padding: 15px;
+    font-family: "Roboto";
 }
 
-.subheader{
-    font-weight: 500;
-    font-size: 28px;
-}
-
-/* Class for description of recipes */
-.description {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    font-size: 20px;
-}
-
-/* Classes for the list on the main menu and the list of ingredients and step by step */
-
-.lists,
-.lists-recipes {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
-}
-
-/* Class that alters the style of the list in the homepage */
-
-.lists li{
-    display: inline-block;
-    border-style: solid;
-    border-width: 3px;
-    font-weight: bold;
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #6fc276;
-    
-}
-
-/*  Class that adds aspects to the list items inside the list-recipes classes */
-
-.lists-recipes li{
-    font-weight: 200;
-    font-size: 18px;
+.nav {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
-/*  Class that adds aspects to the paragraphs inside the list-recipes classes */
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    margin-right: 100px;
+}
 
-.lists-recipes p{
-    font-size: 22px;
+.nav a{
+    text-decoration: none;
+    color: #ececec;
     font-weight: bold;
-    background-color: #3c8f43;
-    border-style: solid;
-    border-width: 3px;
+    font-size: 24px;
+}
+
+.nav h1 {
+    
+    color: #ececec;
+    margin-right: 250px;   
+    font-size: 36px;
+}
+
+.bar{
+    background-color: #ececec;
+    margin: 0;
+    height: 2px;
+}
+
+/* Code directed to the header */
+
+.intro{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.header_text {
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.header_text h1{
+    padding-top: 30px;
+    color: #ececec;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.header_text p{
+    color: #e7eaf6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Information tab */
+
+.information {
+    background-color: #38598b;
+    font-family: "Roboto";
+}
+
+.information_content {
+    display: flex;
+    justify-content: center;
+    color: #ececec;
+
+}
+
+.recipe_box{
+    width: 400px;
+    height: 350px;
 }
