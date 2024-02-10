@@ -85,16 +85,17 @@
     font-weight: bold;
 }
 
-.chef_logo{
+.chef_logo img{
     max-width: 400px;
     height: auto;
     width: 100%;
 }
 
-.video_tab{
+.video_tab iframe{
     max-width: 560px;
-    height: auto;
-    width: 100%;
+    max-height: 400;
+    border-radius: 20px;
+
 }
 
 /* Information tab */
