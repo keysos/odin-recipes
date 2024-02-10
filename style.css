@@ -62,20 +62,20 @@
 
 .header_text {
     justify-content: center;
-    width: 400px;
+    width: 700px;
     height: 400px;
 }
 
 .header_text h1{
     padding-top: 30px;
     color: #ececec;
-    font-size: 38px;
+    font-size: 48px;
     margin-bottom: 30px;
 }
 
 .header_text p{
     color: #e7eaf6;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -100,6 +100,7 @@
 
 .recipe_box{
     padding-bottom: 100px;
+    text-align: center;
 }
 .recipe_box h2{
     font-size: 24px;
